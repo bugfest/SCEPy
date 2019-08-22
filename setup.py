@@ -3,7 +3,7 @@ setup(
     name="SCEPy",
     version="0.1",
     description="SCEPy is a pure python SCEP server implementation",
-    packages=['scepy'],
+    packages=['scepy','scepy.client'],
     include_package_data=True,
     author="mosen",
     license="MIT",
